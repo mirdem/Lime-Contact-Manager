@@ -37,7 +37,9 @@ namespace Lime_Contact_Manager
 
         private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Environment.Exit(0);
+            frmLogin frmLogin = new frmLogin();
+            this.Hide();
+            frmLogin.Show();
         }
 
         private void btnNewRecord_Click(object sender, EventArgs e)

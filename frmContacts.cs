@@ -279,7 +279,9 @@ namespace Lime_Contact_Manager
 
         private void frmContacts_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Environment.Exit(0);
+            frmMain frmMain = new frmMain();
+            this.Hide();
+            frmMain.Show();
         }
 
         private void frmContacts_Resize(object sender, EventArgs e)

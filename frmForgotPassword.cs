@@ -83,7 +83,9 @@ namespace Lime_Contact_Manager
 
         private void frmForgotPassword_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Environment.Exit(0);
+            frmMain frmMain = new frmMain();
+            this.Hide();
+            frmMain.Show();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)

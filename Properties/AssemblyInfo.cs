@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // denetlenir. Bütünleştirilmiş kod ile ilişkili bilgileri değiştirmek için
 // bu öznitelik değerlerini değiştirin.
 [assembly: AssemblyTitle("Lime Contact Manager")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Lime Contact Manager")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("xfDev")]
 [assembly: AssemblyProduct("Lime Contact Manager")]

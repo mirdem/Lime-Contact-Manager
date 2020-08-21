@@ -99,7 +99,9 @@ namespace Lime_Contact_Manager
 
         private void frmEvents_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Environment.Exit(0);
+            frmMain frmMain = new frmMain();
+            this.Hide();
+            frmMain.Show();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)

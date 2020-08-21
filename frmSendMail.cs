@@ -198,8 +198,9 @@ namespace Lime_Contact_Manager
 
         private void frmSendMail_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Environment.Exit(0);
-
+            frmMain frmMain = new frmMain();
+            this.Hide();
+            frmMain.Show();
         }
 
         private void frmSendMail_Resize(object sender, EventArgs e)
